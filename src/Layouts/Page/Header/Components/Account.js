@@ -19,7 +19,6 @@ function Account() {
                 <img src={require('../../../../Images/Avatar.png')}></img>  {/* Аватарка */}
                 <HoverWrapper className='d-inline-flex align-items-center align-self-center'>
                     <Text className='text-rg-bd ms-3 me-2'>Антон И.</Text>  {/* Имя пользователя */}
-                    <ArrowDownIcon/>
                 </HoverWrapper>
             </div>
         </Clickable>

@@ -5,9 +5,15 @@ function AboutCompany() {
     return (
         <div>
             <Heading/> {/* Заголовок и кнопка справа */}
-            <div className='d-flex flex-column mt-5'>
+            <div className='d-flex flex-column m-5'>
+            <div class="row">
+            <div class="col">
                 <General/>  {/* Основная информация вроде названия, типа и телефона */}
+                </div>
+            <div class="col">
                 <Addresses/> {/* Список доступных адресов заведений */}
+            </div>
+        </div>
             </div>
         </div>
     );

@@ -1,10 +1,10 @@
-import PrimaryButton from "../../../../Components/PrimaryButton";
+import XButton from "../../../../Components/XButton";
 import SecondaryButton from "../../../../Components/SecondaryButton";
 function Heading() {
     return (
-        <div className='d-flex flex-row justify-content-between mt-5'>
+        <div className='d-flex flex-row justify-content-between m-5'>
             <h1 className='large-title'>Данные о компании</h1>
-            <PrimaryButton>Закрыть запись</PrimaryButton>
+            <XButton>Закрыть запись</XButton>
         </div>
     );
 }

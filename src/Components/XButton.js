@@ -7,16 +7,18 @@ function PrimaryButton(props) {
     // Здесь устанавливается минимальная ширина для кнопки
     let minWidth = props.minWidth === undefined ? '216px' : props.minWidth; 
     const Button = styled.div`
-        background: #3B82F6;
+        background: white;
         border-radius: 24px;
+        border: 1px solid #64748B;
         min-width: ${minWidth};
-        color: white;
+        color: #64748B;
         &:hover {
-            background: #81AFF9;
+            opacity: 80%;
+            border: 1px solid #ffffff;
         }
         &:active {
-            background: #0F172A;
             opacity: 60%;
+            border: 1px solid #ffffff;
         }
     `;
     return (
